@@ -53,7 +53,7 @@ public class CalcPage {
     }
 
     private void getWebDriver(String serverUrl) {
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
 //       Windows System.setProperty("webdriver.chrome.driver", "C:\\usr\\selenium\\chromedriver.exe");
 //            WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
